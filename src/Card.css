@@ -1,0 +1,87 @@
+
+@media (min-width: 600px){
+    *{
+        box-sizing: border-box;
+        font-size: 12px;
+        color: rgb(227, 242, 255);
+    }
+    .Card{
+        padding: 10px;
+        margin: auto;
+        width: 100%;
+        height: 350px;
+        padding: 10px;
+        background-color: rgb(44, 44, 44);
+        border-radius: 20px;
+        transition: transform .3s ease, background-color .3s ease, box-shadow 1s ease;
+    }
+    .Card:hover{
+        transform: translateY(-10px);
+        background-color: rgb(34, 46, 45);
+        box-shadow: 0 10px 50px 1px rgb(127 255  212);
+        transition: transform .3s ease, background-color .3s ease, box-shadow .5s ease;
+    }
+    .Card--name{
+        font-size: 2rem;
+    }
+
+    .Card--year{
+        font-size: 1.2rem;
+    }
+    .Card--name, .Card--year, .Card--create{
+        margin: 0 0 10px;
+    }
+    .Card--describe p{
+        margin: 5px 0;
+    }
+    label{
+        opacity: .5;
+    }
+    li{
+        list-style: none;
+    }
+}
+@media (max-width:599px){
+    *{
+        box-sizing: border-box;
+        font-size: 8px;
+        color: rgb(197, 210, 221);
+    }
+    .Card{
+        padding: 10px;
+        margin: auto;
+        width: 100%;
+        height: max-content;
+        padding: 10px;
+        background-color: rgb(44, 44, 44);
+        border-radius: 20px;
+        transition: transform .3s ease, background-color .3s ease, box-shadow 1s ease;
+    }
+    .Card:hover{
+        transform: translateY(-10px);
+        background-color: rgb(34, 46, 45);
+        box-shadow: 0 8px 30px 0 rgb(127 255  212);
+        transition: transform .3s ease, background-color .3s ease, box-shadow .5s ease;
+    }
+    .Card--name{
+        font-size: 2rem;
+    }
+    .Card--year{
+        font-size: 1.2rem;
+    }
+    .Card--name, .Card--year, .Card--create{
+        margin: 0 0 10px;
+    }
+    .Card--describe p{
+        margin: 5px 0;
+    }
+    label{
+        opacity: .5;
+    }
+    li{
+        list-style: none;
+    }
+    ul{
+        padding: 0;
+    }
+}
